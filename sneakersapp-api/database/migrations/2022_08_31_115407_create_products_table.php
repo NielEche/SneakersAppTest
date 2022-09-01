@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('details', 1000);
-            $table->string('attributes');
+            $table->string('product_attribute');
             $table->timestamps();
         });
     }
